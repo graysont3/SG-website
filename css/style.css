@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* .card { */
+    /* display: flex;
+    flex-direction: column; */
+    /* padding: 100px;
+    border: black 5px solid;
+    background-image: url(./assets/images/no-image-icon-23494.png); */
+/* } */
